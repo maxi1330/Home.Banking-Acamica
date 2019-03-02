@@ -167,7 +167,7 @@ function transferirDinero() {
 }
 
 function iniciarSesion() {
-    let codigoVerificacionIngresado = parseInt(prompt("Ingrese su código de verificación."));
+    let codigoVerificacionIngresado = parseInt(prompt("Ingrese su código de verificación. La clave es 1234"));
     if (codigoVerificacionIngresado === codigoVerificacion) {
         alert("Bienvenido " + nombreUsuario + ", ya puedes comenzar a realizar tus operaciones.");
     } else {
